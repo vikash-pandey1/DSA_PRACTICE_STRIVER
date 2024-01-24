@@ -1,4 +1,3 @@
-package BinarySearch.BSAnswer;
 public class BloomDay {
     public static boolean possible(int arr[],int day,int m,int k){
         int n = arr.length;

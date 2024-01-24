@@ -1,4 +1,4 @@
-package BinarySearch.BSAnswer;
+
 
 public class Sqrt_no {
     // public static int sqrt_linear(int n){

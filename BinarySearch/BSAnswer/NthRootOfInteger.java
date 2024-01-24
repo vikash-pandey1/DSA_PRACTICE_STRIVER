@@ -1,4 +1,4 @@
-package BinarySearch.BSAnswer;
+
 
 public class NthRootOfInteger {
     public static int func(int mid,int n ,int m) {

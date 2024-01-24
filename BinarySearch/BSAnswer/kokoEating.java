@@ -1,4 +1,4 @@
-package BinarySearch.BSAnswer;
+
 
 public class kokoEating {
     public static int findmax(int []arr){
