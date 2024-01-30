@@ -58,7 +58,7 @@ public class Array_LL {
 
 
     public static void main(String[] args) {
-        int arr[]= {13,53,3,36,4,};
+        int arr[]= {13,53,3,36,4};
         Node head = converArr2LL(arr);
         System.out.println(head.data);
         traverse(head);
