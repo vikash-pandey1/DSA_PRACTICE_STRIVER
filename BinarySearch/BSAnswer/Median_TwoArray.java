@@ -1,5 +1,3 @@
-import java.util.*;
-
 public class Median_TwoArray {
     public static double median(int[] a, int[] b) {
         // Size of two given arrays
