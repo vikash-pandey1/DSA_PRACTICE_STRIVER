@@ -1,7 +1,5 @@
 package LinkedList;
 
-import LinkedList.Delete_2LL.Node;
-
 public class Delete_2LL {
     public static class Node {
         int data;
@@ -67,9 +65,9 @@ public class Delete_2LL {
         if (head == null || head.next == null)
             return null;
         Node curr = head;
-        int cnt = 0;
+        // int cnt = 0;
         while (curr != null) {
-            cnt++;
+            // cnt++;
             if (curr.data == k)
                 break;
             curr = curr.next;
