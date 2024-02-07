@@ -39,7 +39,6 @@ public class ReverseDLL {
         Node curr = head;
         while(curr!=null){
             back = curr.prev;
-
             curr.prev = curr.next;
             curr.next = back;
             curr = curr.prev;
