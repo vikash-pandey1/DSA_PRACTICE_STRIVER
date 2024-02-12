@@ -35,6 +35,16 @@ public class ReverseLL {
         }
         return prev;
     }
+    public static Node findMiddle(Node head){
+        Node slow = head;
+        Node fast = head;
+        while(fast!=null && fast.next!=null){
+            slow = slow.next;
+            fast = fast.next.next;
+
+        }
+        return slow;
+    }
     public static void print(Node head){
         while (head!=null) {
             System.out.print(head.data+" ");
@@ -45,7 +55,12 @@ public class ReverseLL {
     public static void main(String[] args) {
         int arr[] = {1,2,3,4,5};
         Node head = converArr2LL(arr);
+        print(head);
         head = reverse(head);
+        print(head);
+        Node mid = findMiddle(head);
+        print(mid);
+        head = reverse(mid);
         print(head);
     }
 }

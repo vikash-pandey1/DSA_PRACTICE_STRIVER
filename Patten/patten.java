@@ -1,4 +1,4 @@
-package striversheet;
+package Patten;
 
 // public class patten {
 //     public static void main(String[] args) { // 1
