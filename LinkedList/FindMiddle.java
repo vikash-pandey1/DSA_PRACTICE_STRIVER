@@ -15,7 +15,7 @@ class Node {
     }
 }
 
-public class ReverseLL {
+public class FindMiddle {
 
     public static Node converArr2LL(int arr[]) {
         Node head = new Node(arr[0]);
@@ -28,28 +28,35 @@ public class ReverseLL {
         return head;
     }
 
-    public static Node reverse(Node head) {
-        Node curr = head;
-        Node prev = null;
-        Node next;
-        while (curr != null) {
-            next = curr.next;
-            curr.next = prev;
-            prev = curr;
-            curr = next;
-        }
-        return prev;
-    }
-    public static Node reverseRecurtion(Node head){
-        if(head == null || head.next == null){
-            return head;
-        }
+    public static Node findMiddle(Node head) {
+        Node slow = head;
+        Node fast = head;
+        while (fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
 
-        Node newHead = reverseRecurtion(head.next);
-        Node front = head.next;
-        front.next = head;
-        head.next = null;
-        return newHead;
+        }
+        return slow;
+    }
+
+    public static Node findMiddle2(Node head) {
+        Node temp = head;
+        int cnt = 0;
+        while (temp != null) {
+            cnt++;
+            temp = temp.next;
+        }
+        int mid = cnt / 2;
+        temp = head;
+        while (temp != null) {
+            if (mid == 0) {
+                break;
+            }
+            mid--;
+            temp = temp.next;
+            
+        }
+        return temp;
     }
 
     public static void print(Node head) {
@@ -64,12 +71,10 @@ public class ReverseLL {
         int arr[] = { 1, 2, 3, 4, 5 };
         Node head = converArr2LL(arr);
         print(head);
-        // head = reverse(head);
-        head = reverseRecurtion(head);
-        print(head);
-        // Node mid = findMiddle(head);
-        // print(mid);
-        // head = reverse(mid);
-        print(head);
+        // System.out.println(findMiddle2(head));
+        Node mid = findMiddle2(head);
+        print(mid);
+        Node mid1 = findMiddle(head);
+        print(mid1);
     }
 }
