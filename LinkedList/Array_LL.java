@@ -64,6 +64,5 @@ public class Array_LL {
         traverse(head);
         System.out.println("the length of given linkedList is  "+length(head));
         System.out.println(checkNo(head, 0));
-        
     }
 }
