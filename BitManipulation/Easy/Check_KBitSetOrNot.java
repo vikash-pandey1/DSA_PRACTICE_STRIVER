@@ -1,3 +1,4 @@
+package Easy;
 public class Check_KBitSetOrNot {
     public static boolean check(int no,int i){
         // if(((1<<i-1)&no)!=0){

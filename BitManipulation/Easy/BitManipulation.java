@@ -1,3 +1,4 @@
+package Easy;
 public class BitManipulation{
     public static int countBit(int no){
         int count =0;
