@@ -16,7 +16,7 @@ public class BitManipulation{
         } else {
             ans[a++] = 0;
         }
-        // set ith position
+        // set ith position 
         ans[a++] = (num|(1<<i-1));
         // extract bit
         ans[a] = (num&~(1<<i-1));
