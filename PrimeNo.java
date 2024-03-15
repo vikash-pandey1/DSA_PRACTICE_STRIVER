@@ -12,8 +12,10 @@ public class PrimeNo {
         return false;
     }
 
-    public static int countPrimeNO(int no){
+    public static void countPrimeNO(int no){
         int ans =0;
+        int arr[] = new int[5];
+        int arr1[] = new int[5];
         for(int i=1;i<=no;i++){
             int cnt =0;
             for(int j=2;j<i;j++){
@@ -22,13 +24,34 @@ public class PrimeNo {
                 }
             }
             if(cnt==0){
-                ans++;
+                arr[ans++]=i;
             }
         }
-        return ans;
+        System.out.println();
+        int i=0;
+        int j=4;
+        ans =0;
+        while(i<j){
+            if(arr[i]*arr[j]==no){
+                arr1[ans++]=arr[i];
+                arr1[ans++]=arr[j];
+                i++;
+                j--;
+            }else if(arr[i]*arr[j]<no){
+                i++;
+            }else{
+                j--;
+            }
+        }
+        for(i=0;i<arr1.length;i++){
+            if(arr1[i]>0){
+                System.out.print(arr1[i]+" ");
+            }
+        }
     }
     public static void main(String[] args) {
-        System.out.println(isPrime(103));
-        System.out.println(countPrimeNO(23));
+        // System.out.println(isPrime(103));
+        // System.out.println(countPrimeNO(10));
+        countPrimeNO(10);
     }
 }
