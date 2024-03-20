@@ -55,6 +55,11 @@ class Queue {
     public int size() {
         return currSize;
     }
+
+    public void Enqueue(int i) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'Enqueue'");
+    }
 }
 
 public class QueueUArray {
