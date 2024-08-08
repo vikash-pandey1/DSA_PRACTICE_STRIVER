@@ -57,7 +57,7 @@ public class LargestSumCycle {
             }
             return cycleSum;
         }
-        findLargestSumCycle(nextNode, edge);
+        // findLargestSumCycle(nextNode, edge);
     }
 }
 
