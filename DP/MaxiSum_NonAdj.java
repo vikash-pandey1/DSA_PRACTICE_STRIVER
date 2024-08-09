@@ -15,6 +15,7 @@ public class MaxiSum_NonAdj {
     public static int f2(int idx,int arr[],Integer dp[]){
         if(idx<0) return 0;
         if(idx==0) return arr[idx];
+        if(dp[idx]!=null) return dp[idx];
         int pick = arr[idx]+f2(idx-2, arr,dp);
         int notPick = 0+f2(idx-1, arr,dp);
         return dp[idx]=  Math.max(pick, notPick);
