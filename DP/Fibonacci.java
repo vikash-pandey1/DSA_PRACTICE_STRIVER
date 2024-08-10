@@ -9,12 +9,14 @@ public class Fibonacci {
         Integer dp[] =new Integer[n+1];
         return helperFib(n, dp);
     }
+    
     public static int helperFib(int n,Integer [] arr){
         if(n<=1) return n;
         if(arr[n]!=null) return arr[n];
         arr[n] = helperFib(n-1,arr)+helperFib(n-2,arr);
         return arr[n];
     }
+
     public static int fibTab(int n){
         if(n<=1) return n;
         int dp[]= new int[n+1];
@@ -40,6 +42,6 @@ public class Fibonacci {
         System.out.println(fibRec(6));
         System.out.println(fibMemo(6));
         System.out.println(fibTab(6));
-        System.out.println(fibTabOpt(0));
+        System.out.println(fibTabOpt(4));
     }
 }
