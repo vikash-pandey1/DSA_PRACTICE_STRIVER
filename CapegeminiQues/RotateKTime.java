@@ -1,5 +1,4 @@
 package CapegeminiQues;
-
 public class RotateKTime {
     public static void rotate(int n,int arr[],int k){
         k=k%n;
@@ -13,7 +12,6 @@ public class RotateKTime {
         for(int i=0;i<k;i++){
             arr[i]=temp[i];
         }
-
     }
     public static void main(String[] args) {
         int arr[]={1,3,5,7,9};
