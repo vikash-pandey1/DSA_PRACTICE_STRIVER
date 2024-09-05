@@ -1,6 +1,6 @@
 package CapegeminiQues;
 
-public class SttringCompress {
+public class StringCompress {
     public static String compress(String str){
         StringBuilder ans = new StringBuilder();
         int count=1;
