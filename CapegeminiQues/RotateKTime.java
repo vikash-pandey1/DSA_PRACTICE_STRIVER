@@ -1,4 +1,4 @@
-package CapegeminiQues;
+
 public class RotateKTime {
     public static void rotate(int n,int arr[],int k){
         k=k%n;

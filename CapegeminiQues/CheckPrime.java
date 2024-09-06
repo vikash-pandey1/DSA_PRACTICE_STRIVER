@@ -1,4 +1,4 @@
-package CapegeminiQues;
+
 
 public class CheckPrime {
     public static void check(int no){

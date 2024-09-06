@@ -1,4 +1,4 @@
-package CapegeminiQues;
+
 
 public class SwapFirstLastChar {
     public static String swap(String str){

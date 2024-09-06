@@ -1,4 +1,4 @@
-package CapegeminiQues;
+
 
 public class MoveHash {
     public static String moveHash(String str){

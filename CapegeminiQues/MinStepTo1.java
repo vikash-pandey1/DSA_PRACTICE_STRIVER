@@ -1,4 +1,4 @@
-package CapegeminiQues;
+
 
 public class MinStepTo1 {
     // no/x x<no && no%x==0 && no = no-1;

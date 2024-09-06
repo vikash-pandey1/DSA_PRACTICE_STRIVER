@@ -1,4 +1,4 @@
-package CapegeminiQues;
+
 
 public class StringCompress {
     public static String compress(String str){

@@ -1,4 +1,4 @@
-package CapegeminiQues;
+
 
 public class SecondLargElement {
     public static int findSecondLargest(int arr[]) {
