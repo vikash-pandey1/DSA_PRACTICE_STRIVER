@@ -2,7 +2,7 @@ public class BinaryNu {
     public static int check(String str){
         if(str.length()==0) return -1;
         int res = str.charAt(0);
-        for(int i=1;i<str.length();){
+        for(int i=1;i<str.length();i++){
             char prev = str.charAt(i);
             i++;
             if(prev=='A'){
@@ -12,7 +12,6 @@ public class BinaryNu {
             }else{
                 res = res ^ (str.charAt(i)-'0');
             }
-            i++;
         }
         return res;
     }
