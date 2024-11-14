@@ -1,5 +1,6 @@
+import java.util.*;
 public class LongestConseNo {
-    public sta int longestConsecutiveNo(int arr[]){
+    public static int longestConsecutiveNo(int arr[]){
         Set<Integer> set = new HashSet<>();
         for(int i:arr){
             set.add(i);

@@ -1,0 +1,11 @@
+two sum
+two sum adv with hour
+
+second largest
+decimal to bin with sum
+
+reverse array and sum of even positions no
+poet and rymes
+
+dividend = divisor*quutiens+remainder check dividend is present in array or not if yes then ret idx
+hallowes candies if candies price in div by 5 then candies is free otherwise pay for candies we have to canclute max no of cadies can buy with given money so in this we can sort array then take first then so

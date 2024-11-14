@@ -21,10 +21,12 @@ public class CountOccurence {
     }
 
     public static void countOccurrence(int arr[]){
+        
         HashMap<Integer,Integer> hm = new HashMap<>();
         for(int no:arr){
             hm.put(no,hm.getOrDefault(no,0)+1);
         }
+        System.out.println("using hashset");
         for(int key:hm.keySet()){
             System.out.println(key+" occured "+hm.get(key));
         }

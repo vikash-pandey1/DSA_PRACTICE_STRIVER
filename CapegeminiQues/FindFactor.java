@@ -8,5 +8,7 @@ public class FindFactor {
     }
     public static void main(String[] args) {
         findFactor(54);
+        System.out.println();
+        findFactor(1869);
     }
 }

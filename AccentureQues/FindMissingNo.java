@@ -1,4 +1,3 @@
-import java.security.PublicKey;
 
 public class FindMissingNo {
     public static int findNo(int arr[]){

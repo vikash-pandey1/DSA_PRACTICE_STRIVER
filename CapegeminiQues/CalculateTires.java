@@ -31,9 +31,9 @@ public class CalculateTires{
     }
     public static void main(String[] args) {
         int dealer[][]={{4,2},{4,0},{1,2}};
-        int marks[][]={{50,60,70},{90,98,670,76},{32,5,3}};
+        // int marks[][]={{50,60,70},{90,98,670,76},{32,5,3}};
         calculate(dealer);
         System.out.println();
-        calculateMarks(marks);
+        // calculateMarks(marks);
     }
 }

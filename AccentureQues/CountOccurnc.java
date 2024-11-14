@@ -19,7 +19,6 @@ public class CountOccurnc {
             System.out.println(key+" occurs "+map.get(key)+" times");
         }
     }
-
     public static void main(String[] args) {
         int arr[]={2,3,5,3,2,3,23,2};
         int trg = 2;

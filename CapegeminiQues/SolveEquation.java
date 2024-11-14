@@ -8,7 +8,7 @@ public class SolveEquation {
         int b = 2;
 
         // Step 2: Calculate each term of the expression
-        int term1 = (int) Math.pow(a, 3);        // a^3
+        int term1 = (int) Math.pow(a, 3);         // a^3
         int term2 = (int) Math.pow(a, 2) * b;    // a^2 * b
         int term3 = 2 * (int) Math.pow(a, 2) * b; // 2 * a^2 * b
         int term4 = 2 * a * (int) Math.pow(b, 2); // 2 * a * b^2

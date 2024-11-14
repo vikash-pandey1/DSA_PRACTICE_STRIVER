@@ -13,7 +13,7 @@ public class FreqSort {
         for(char c:charactr){
             int freq = map.get(c);
             for(int i=0;i<freq;i++){
-                sb.append(c)
+                sb.append(c);
             }
         }
 

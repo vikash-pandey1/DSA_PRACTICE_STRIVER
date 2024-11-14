@@ -1,7 +1,7 @@
 public class PrimeNo {
     public static void isPrime(int no){
         boolean bool = true;
-        if(no<2){
+        if(no<=1){
             bool =false;
         }
         
@@ -22,12 +22,15 @@ public class PrimeNo {
         if(no<=1){
             return false;
         }
+        if(no==2 || no==3) return true;
+        if(no%2==0 || no%3==0) return false;
         for(int i=2;i<=Math.sqrt(no);i++){
             
             if(no%i==0){
                 return false;
-            }
+            } 
         }
+
 
         return true;
     }

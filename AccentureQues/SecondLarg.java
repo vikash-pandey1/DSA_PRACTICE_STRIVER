@@ -15,7 +15,7 @@ public class SecondLarg {
             }
         }
         return secMax;
-    } 
+    }
     public static void main(String[] args) {
         int arr[]= {3,35,5395,393,5};
         System.out.println(secondLargest(arr));

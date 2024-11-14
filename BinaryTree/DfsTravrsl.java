@@ -18,13 +18,11 @@ public class DfsTravrsl {
         if(root!=null){
             System.out.print(root.data+" ");
             preorder(root.left);
-            
             preorder(root.right);
         }
     }public static void postorder(Node root){
         if(root!=null){
             postorder(root.left);
-            
             postorder(root.right);
             System.out.print(root.data+" ");
         }
