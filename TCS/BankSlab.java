@@ -9,7 +9,7 @@ public class BankSlab {
         int totalYears = sc.nextInt();
         double arr[]=new double[2];
         for(int j=0;j<2;j++){
-        System.out.println("Enter the no of slabs");
+        System.out.println("Enter the no  of slabs");
             int n1 = sc.nextInt();
         double sum =0;
         int a = 0;
@@ -33,5 +33,6 @@ public class BankSlab {
         }else{
             System.out.println("bankB");
         }
+        sc.close();
     }
 }
