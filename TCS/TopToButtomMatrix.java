@@ -18,5 +18,6 @@ public class TopToButtomMatrix {
             }
         }
         System.out.println(dp[m][n]);
+        sc.close();
     }
 }
