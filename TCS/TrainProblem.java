@@ -31,5 +31,6 @@ public class TrainProblem {
         }
 
         System.out.println(minPlat);
+        sc.close();
     }
 }
