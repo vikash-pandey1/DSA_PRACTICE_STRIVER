@@ -22,7 +22,7 @@ public class PrimeFactor {
                 System.out.println(i);
             }
         }
-        int count =1;
+        int count =0; 
         for(int ch:al){
             if(isPrime(ch)){
                 System.out.print("prime "+ ch+" ");
